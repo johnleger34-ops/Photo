@@ -54,6 +54,7 @@ private data class Controls(
     val outputLongSide: Float = 1920f,
 )
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun NoLimitsApp(context: Context) {
     var sourceUri by remember { mutableStateOf<Uri?>(null) }
