@@ -12,17 +12,14 @@ android {
         minSdk = 26
         targetSdk = 35
         versionCode = 3
-        versionName = "0.2.1-local"
+        versionName = "0.3.0-local"
     }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-
-    kotlinOptions {
-        jvmTarget = "17"
-    }
+    kotlinOptions { jvmTarget = "17" }
 
     buildFeatures { compose = true }
     composeOptions { kotlinCompilerExtensionVersion = "1.5.14" }
